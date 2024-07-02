@@ -38,6 +38,7 @@ android {
         implementation(libs.material)
         implementation(libs.dagger.hilt)
         implementation(libs.dagger.hilt.compiler)
+        implementation(libs.androidx.hilt.navigation.compose)
         implementation(project(":weather:ui"))
         implementation(project(":weather:home:api"))
         implementation(project(":weather:favorites:api"))
