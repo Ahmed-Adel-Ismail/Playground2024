@@ -21,3 +21,12 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Application"
 include(":app")
+include("weather:ui")
+include(":weather:home")
+include(":weather:favorites")
+include(":weather:app")
+include(":weather:splash")
+include(":weather:favorites:api")
+include(":weather:home:api")
+include(":weather:splash:api")
+include(":weather:datasources")
